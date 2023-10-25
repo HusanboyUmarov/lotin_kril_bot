@@ -14,7 +14,7 @@ bot.command('start', async(ctx)=>{
    Menga shunchaki matn kriting:`)
 })
 bot.use(isAuth)
-bot.use(isJoin)
+// bot.use(isJoin)
 
 
 bot.on("message:text", (ctx)=>{
