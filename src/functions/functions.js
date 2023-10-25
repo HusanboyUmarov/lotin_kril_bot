@@ -77,6 +77,7 @@ const kril_lotin = (str)=>{
     .replace(/з/g, 'z').replace(/З/g, 'Z')
     .replace(/ъ/g, "'").replace(/Ъ/g, "'")
     .replace(/ц/g, 's').replace(/Ц/g, 'Ts')
+    .replace(/Ь/g, '').replace(/ь/g, '')
 };
 
 const check_words = (str = '') =>{
